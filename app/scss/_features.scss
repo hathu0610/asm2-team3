@@ -1,0 +1,24 @@
+.feature {
+  &__grid {
+    @include breakpoint-up(large) {
+      display: flex;
+    }
+  }
+
+  &__item {
+    border: 1px solid red;
+    padding: 0.9375rem;
+    @include breakpoint-up(large) {
+      flex: 1;
+    }
+  }
+
+  &__icon {
+  }
+
+  &__title {
+  }
+
+  &__description {
+  }
+}

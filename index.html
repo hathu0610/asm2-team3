@@ -1,12 +1,71 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Assignment 2</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  
+  <title>Assignment 2</title>
+
+  <style>
+    .attribution { font-size: 11px; text-align: center; }
+    .attribution a { color: hsl(228, 45%, 44%); }
+  </style>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200;0,300;0,400;0,600;0,700;1,200;1,300;1,400;1,600;1,700&display=swap" rel="stylesheet">  <link rel ="stylesheet" href="./app/scss/style.css" >
+  <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+
 </head>
 <body>
-    <h1>The IT world Assignment 2</h1>
+  <header class="header">
+    <div class="overlay has-fade"></div>
+    <nav class="container container--pall flex flex-jc-sb flex-ai-c">
+      <a href="/" class="header__logo">
+          <h3>Assignment 2</h3>
+      </a>
+
+      <a id="btnHamburger" href="#" class="header__toggle hide-for-desktop">
+        <span></span>
+        <span></span>
+        <span></span>
+      </a>
+
+      <div class="header__links hide-for-mobile">
+        <a href="#">Home</a><a href="#">Team Profile</a><a href="#">IT Work</a><a href="#">IT Technologies</a><a href="#">Project ideas</a>
+      </div>
+      
+      <a href="#" class="button header__cta hide-for-mobile"> Team 3</a>
+    </nav>
+    <div class="header__menu has-fade" >
+      <a href="">Home</a>
+      <a href="">Team Profile</a>
+      <a href="">IT Work</a>
+      <a href="">Technologies</a>
+      <a href="">Project ideas</a>
+    </div>
+  </header>
+
+  <section class="hero">
+    <div class="container">
+    <div class="hero__image ">
+    </div>
+    <div class="hero__text container--pall">
+      <h1>
+        Assignment 2: 
+        The IT World      </h1>
+      <p >An assignment for class COSC2083 Intro to IT about how the IT Work, Technologies and our team's Project Ideas      </p>
+        <a href="#" class=" button hero__cta">Let's start!</a>
+      </div>
+  </section>
+
+<section class="feature container container--pall">
+  <h2>  Team Profile</h2>
+
+</section>
+
+  <script src="app/js/script.js"></script>
 </body>
 </html>

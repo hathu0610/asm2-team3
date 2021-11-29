@@ -1,0 +1,123 @@
+.header {
+  position: sticky;
+  top: 0;
+  width: 100%;
+
+  &.open {
+    .header__toggle {
+      > span:first-child {
+        transform: rotate(45deg);
+      }
+      > span:nth-child(2) {
+        opacity: 0;
+      }
+
+      > span:last-child {
+        transform: rotate(-45deg);
+      }
+    }
+  }
+  .overlay {
+    opacity: 0;
+    position: fixed;
+    top: 0;
+    right: 0px;
+    bottom: 0px;
+    left: 0px;
+    background-image: linear-gradient($DarkBlue, transparent);
+  }
+  nav {
+    position: relative;
+    background-color: $White;
+    padding-top: 1.0625rem;
+    padding-bottom: 1.0625rem;
+  }
+
+  &__logo {
+    width: 8.8125rem;
+    height: 1.375rem;
+    color: black;
+  }
+
+  //mobile menu toggle
+
+  &__toggle {
+    > span {
+      display: block;
+      width: 26px;
+      height: 2px;
+      background-color: $DarkBlue;
+      transition: all 300ms ease-in-out;
+      transform-origin: 3px 1px;
+
+      &:not(:last-child) {
+        margin-bottom: 5px;
+      }
+    }
+  }
+
+  &__menu {
+    background: $White;
+    margin-top: 1.5rem;
+    padding: 1.625rem;
+    border-radius: 5px;
+    position: absolute;
+    width: calc(100% - 3rem);
+    left: 50%;
+    transform: translateX(-50%);
+
+    a {
+      display: block;
+      color: $DarkBlue;
+      padding: 0.625rem;
+      color: $DarkBlue;
+      text-align: center;
+    }
+  }
+
+  &__links {
+    a {
+      position: relative;
+      font-size: $font-sm;
+      color: $GrayishBlue;
+      transition: color 200ms ease-in-out;
+
+      &:not(:last-child) {
+        margin-right: 32px;
+      }
+      &::before {
+        position: absolute;
+        content: "";
+        display: block;
+        height: 5px;
+        left: 0;
+        right: 0;
+        bottom: -30px;
+        opacity: 0;
+        transition: opacity 200ms ease-in-out;
+        background-color: $Purple;
+      }
+      &:hover {
+        color: $DarkBlue;
+        &::before {
+          opacity: 1;
+        }
+      }
+      &:hover {
+        color: $DarkBlue;
+      }
+    }
+  }
+
+  &__cta {
+    font-size: $font-sm;
+    color: $White;
+    transition: opacity 300ms ease-in-out;
+    background: $Purple;
+    border: 0;
+
+    &:hover {
+      opacity: 0.75;
+    }
+  }
+}
