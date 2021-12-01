@@ -1,5 +1,8 @@
 .hero {
-  background-color: $Purple;
+  background-image: url("/images/Frame.svg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
   .container {
     @include breakpoint-up(large) {
       display: flex;
@@ -22,7 +25,7 @@
   }
 
   &__text {
-    color: $White;
+    color: $DarkBlue;
     @include breakpoint-up(large) {
       flex: 2;
       order: 1;
@@ -35,7 +38,7 @@
   &__cta {
     font-size: $font-med;
     transition: opacity 300ms ease-in-out;
-    border-color: white;
+    border-color: $DarkBlue;
     border-style: solid;
     border-width: 1.5px;
     &:hover {

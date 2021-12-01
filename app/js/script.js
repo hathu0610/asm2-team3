@@ -23,3 +23,9 @@ btnHamburger.addEventListener('click', function() {
     });
     }
 });
+
+function smoothScroll(){
+    document.querySelector('.a').scrollIntoView({
+        behavior: 'smooth'
+    });
+}

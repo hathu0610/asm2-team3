@@ -2,6 +2,8 @@
   position: sticky;
   top: 0;
   width: 100%;
+  background: rgba(255, 255, 255, 0.9);
+  z-index: 99;
 
   &.open {
     .header__toggle {
@@ -28,7 +30,6 @@
   }
   nav {
     position: relative;
-    background-color: $White;
     padding-top: 1.0625rem;
     padding-bottom: 1.0625rem;
   }
@@ -79,7 +80,7 @@
     a {
       position: relative;
       font-size: $font-sm;
-      color: $GrayishBlue;
+      color: $DarkBlue;
       transition: color 200ms ease-in-out;
 
       &:not(:last-child) {
@@ -98,13 +99,13 @@
         background-color: $Purple;
       }
       &:hover {
-        color: $DarkBlue;
+        color: black;
         &::before {
           opacity: 1;
         }
       }
       &:hover {
-        color: $DarkBlue;
+        color: black;
       }
     }
   }

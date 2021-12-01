@@ -1,0 +1,44 @@
+.profile {
+  //background-color: $Purple;
+  h2 {
+    text-align: center;
+  }
+
+  &__box {
+    @include breakpoint-up(large) {
+      display: flex;
+    }
+  }
+  &__avatar {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    @include breakpoint-up(large) {
+      flex: 2;
+    }
+  }
+
+  &__floating {
+    visibility: hidden;
+    @include breakpoint-up(large) {
+      visibility: visible;
+      float: right !important;
+      position: relative;
+      width: 150%;
+      height: auto;
+      margin-left: -170% !important;
+    }
+  }
+
+  &__description {
+    @include breakpoint-up(large) {
+      flex: 3;
+    }
+  }
+  &__title {
+    h4 {
+      margin-top: 0;
+      margin-bottom: 0;
+    }
+  }
+}

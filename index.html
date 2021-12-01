@@ -19,7 +19,7 @@
   <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
 
 </head>
-<body>
+<body >
   <header class="header">
     <div class="overlay has-fade"></div>
     <nav class="container container--pall flex flex-jc-sb flex-ai-c">
@@ -34,21 +34,21 @@
       </a>
 
       <div class="header__links hide-for-mobile">
-        <a href="#">Home</a><a href="#">Team Profile</a><a href="#">IT Work</a><a href="#">IT Technologies</a><a href="#">Project ideas</a>
+        <a onClick="smoothScroll()" href="#hero">Home</a><a href="#TeamProfile">Team Profile</a><a href="#">IT Work</a><a href="#">IT Technologies</a><a href="#">Project ideas</a>
       </div>
       
-      <a href="#" class="button header__cta hide-for-mobile"> Team 3</a>
+      <a href="#TeamProfile" class="button header__cta hide-for-mobile"> Team Botto</a>
     </nav>
     <div class="header__menu has-fade" >
-      <a href="">Home</a>
-      <a href="">Team Profile</a>
+      <a href="#hero">Home</a>
+      <a href="#TeamProfile">Team Profile</a>
       <a href="">IT Work</a>
       <a href="">Technologies</a>
       <a href="">Project ideas</a>
     </div>
   </header>
 
-  <section class="hero">
+  <section id="hero" class="hero">
     <div class="container">
     <div class="hero__image ">
     </div>
@@ -57,15 +57,176 @@
         Assignment 2: 
         The IT World      </h1>
       <p >An assignment for class COSC2083 Intro to IT about how the IT Work, Technologies and our team's Project Ideas      </p>
-        <a href="#" class=" button hero__cta">Let's start!</a>
       </div>
   </section>
-
-<section class="feature container container--pall">
+<div class="bg">
+<section id="TeamProfile" class="profile container container--pall">
   <h2>  Team Profile</h2>
+  <div class="profile__box container--pall">
+    <div class="profile__avatar">
+      <img src="/images/ava1.svg" alt="">
+      <h4>Thu Nguyen</h4>
+      <img class="profile__floating" src="/images/rocket.svg" alt="">
+
+    </div>
+    <div class="profile__description">
+
+      <div class="profile__descontent">
+        <div class="profile__title">
+          <h4>Profile</h4>  
+        </div>
+        <div class="profile__content">
+          <h5>My name is Nguyen Thi Ha Thu (s3927104), a first-year student at RMIT Vietnam. My journey into technology began when I first started university in the US working on my major in economics. As I was taking my fundamental classes, I learned Computer Science 101 and met a teacher who had a deep passion for tech and aspired to pass on his passion to his students - including me. He viewed coding as ‘mysteries', and we - the coder - were the “detective" who needed to solve those mysteries. In the summer of my second year, I was lucky enough to get a job at a game studio where I joined as a Game Developer Intern. I had a wonderful experience with my team as well as being mentored by my dedicated Tech Lead. In contrast to what I hoped, I did not feel satisfied and enjoyable while being a Developer and decided to take a gap year. Coming back to Viet Nam, I found a suitable job that combines my passion for Tech with my capability in Analysis/Operation - to work as a Product Owner for an e-commerce company. I noticed that due to a lack in my knowledge about Tech, this created a gap between me and the Tech team since my job heavily involves working between Developers, Designers, and the Business team. I decided to continue my learning journey at RMIT since RMIT has the best education quality with an English-speaking environment. I believe that RMIT will equip me with enough knowledge for my future job and learn about how technology will change in the future. </h5>
+        </div>
+      </div>
+
+      <div class="profile__descontent">
+        <div class="profile__title">
+          <h4>Personality test results</h4>  
+        </div>
+        <div class="profile__content">
+          <h5>ESFP</h5>
+        </div>
+      </div>
+
+      <div class="profile__descontent">
+        <div class="profile__title">
+          <h4>Career Plan</h4>  
+        </div>
+        <div class="profile__content">
+            <h5>The job that I aimed for in the future is being Product Manager at Tiki. For the position, the ideal candidate must have a customer-first mindset, a strong understanding of back-end and front-end programming languages, and the ability to leverage big data to develop, analyze, and improve our financial products. This role requires a candidate with curiosity, excellent analytical, organizational, and communication skills as he/she‘ll be working with many different constituents. This is a customer-centric role, working to translate the needs of the customer into online financial product opportunities.  </h5>        
+        </div>
+      </div>
+    </div>
+
+  
+  
+  </div>
+
+  <div class="profile__box container--pall">
+    <div class="profile__avatar">
+      <img src="/images/ava1.svg" alt="">
+      <h4>Thu Nguyen</h4>
+      <img class="profile__floating" src="/images/humanrocket.svg" alt="">
+
+    </div>
+    <div class="profile__description">
+
+      <div class="profile__descontent">
+        <div class="profile__title">
+          <h4>Profile</h4>  
+        </div>
+        <div class="profile__content">
+          <h5>My name is Nguyen Thi Ha Thu (s3927104), a first-year student at RMIT Vietnam. My journey into technology began when I first started university in the US working on my major in economics. As I was taking my fundamental classes, I learned Computer Science 101 and met a teacher who had a deep passion for tech and aspired to pass on his passion to his students - including me. He viewed coding as ‘mysteries', and we - the coder - were the “detective" who needed to solve those mysteries. In the summer of my second year, I was lucky enough to get a job at a game studio where I joined as a Game Developer Intern. I had a wonderful experience with my team as well as being mentored by my dedicated Tech Lead. In contrast to what I hoped, I did not feel satisfied and enjoyable while being a Developer and decided to take a gap year. Coming back to Viet Nam, I found a suitable job that combines my passion for Tech with my capability in Analysis/Operation - to work as a Product Owner for an e-commerce company. I noticed that due to a lack in my knowledge about Tech, this created a gap between me and the Tech team since my job heavily involves working between Developers, Designers, and the Business team. I decided to continue my learning journey at RMIT since RMIT has the best education quality with an English-speaking environment. I believe that RMIT will equip me with enough knowledge for my future job and learn about how technology will change in the future. </h5>
+        </div>
+      </div>
+
+      <div class="profile__descontent">
+        <div class="profile__title">
+          <h4>Personality test results</h4>  
+        </div>
+        <div class="profile__content">
+          <h5>ESFP</h5>
+        </div>
+      </div>
+
+      <div class="profile__descontent">
+        <div class="profile__title">
+          <h4>Career Plan</h4>  
+        </div>
+        <div class="profile__content">
+            <h5>The job that I aimed for in the future is being Product Manager at Tiki. For the position, the ideal candidate must have a customer-first mindset, a strong understanding of back-end and front-end programming languages, and the ability to leverage big data to develop, analyze, and improve our financial products. This role requires a candidate with curiosity, excellent analytical, organizational, and communication skills as he/she‘ll be working with many different constituents. This is a customer-centric role, working to translate the needs of the customer into online financial product opportunities.  </h5>        
+        </div>
+      </div>
+    </div>
+
+  
+  
+  </div>
+
+  <div class="profile__box container--pall">
+    <div class="profile__avatar">
+      <img src="/images/ava1.svg" alt="">
+      <h4>Thu Nguyen</h4>
+      <img class="profile__floating" src="/images/Earth.svg" alt="">
+
+    </div>
+    <div class="profile__description">
+
+        <div class="profile__descontent">
+          <div class="profile__title">
+            <h4>Profile</h4>  
+          </div>
+          <div class="profile__content">
+            <h5>My name is Nguyen Thi Ha Thu (s3927104), a first-year student at RMIT Vietnam. My journey into technology began when I first started university in the US working on my major in economics. As I was taking my fundamental classes, I learned Computer Science 101 and met a teacher who had a deep passion for tech and aspired to pass on his passion to his students - including me. He viewed coding as ‘mysteries', and we - the coder - were the “detective" who needed to solve those mysteries. In the summer of my second year, I was lucky enough to get a job at a game studio where I joined as a Game Developer Intern. I had a wonderful experience with my team as well as being mentored by my dedicated Tech Lead. In contrast to what I hoped, I did not feel satisfied and enjoyable while being a Developer and decided to take a gap year. Coming back to Viet Nam, I found a suitable job that combines my passion for Tech with my capability in Analysis/Operation - to work as a Product Owner for an e-commerce company. I noticed that due to a lack in my knowledge about Tech, this created a gap between me and the Tech team since my job heavily involves working between Developers, Designers, and the Business team. I decided to continue my learning journey at RMIT since RMIT has the best education quality with an English-speaking environment. I believe that RMIT will equip me with enough knowledge for my future job and learn about how technology will change in the future. </h5>
+          </div>
+        </div>
+
+        <div class="profile__descontent">
+          <div class="profile__title">
+            <h4>Personality test results</h4>  
+          </div>
+          <div class="profile__content">
+            <h5>ESFP</h5>
+          </div>
+        </div>
+
+        <div class="profile__descontent">
+          <div class="profile__title">
+            <h4>Career Plan</h4>  
+          </div>
+          <div class="profile__content">
+              <h5>The job that I aimed for in the future is being Product Manager at Tiki. For the position, the ideal candidate must have a customer-first mindset, a strong understanding of back-end and front-end programming languages, and the ability to leverage big data to develop, analyze, and improve our financial products. This role requires a candidate with curiosity, excellent analytical, organizational, and communication skills as he/she‘ll be working with many different constituents. This is a customer-centric role, working to translate the needs of the customer into online financial product opportunities.  </h5>        
+          </div>
+        </div>
+    </div>
+
+
+  </div>
+
+  <div class="profile__box container--pall">
+    <div class="profile__avatar">
+      <img src="/images/ava1.svg" alt="">
+      <h4>Thu Nguyen</h4>
+      <img class="profile__floating" src="/images/robot1.svg" alt="">
+
+
+    </div>
+    <div class="profile__description">
+
+        <div class="profile__descontent">
+          <div class="profile__title">
+            <h4>Profile</h4>  
+          </div>
+          <div class="profile__content">
+            <h5>My name is Nguyen Thi Ha Thu (s3927104), a first-year student at RMIT Vietnam. My journey into technology began when I first started university in the US working on my major in economics. As I was taking my fundamental classes, I learned Computer Science 101 and met a teacher who had a deep passion for tech and aspired to pass on his passion to his students - including me. He viewed coding as ‘mysteries', and we - the coder - were the “detective" who needed to solve those mysteries. In the summer of my second year, I was lucky enough to get a job at a game studio where I joined as a Game Developer Intern. I had a wonderful experience with my team as well as being mentored by my dedicated Tech Lead. In contrast to what I hoped, I did not feel satisfied and enjoyable while being a Developer and decided to take a gap year. Coming back to Viet Nam, I found a suitable job that combines my passion for Tech with my capability in Analysis/Operation - to work as a Product Owner for an e-commerce company. I noticed that due to a lack in my knowledge about Tech, this created a gap between me and the Tech team since my job heavily involves working between Developers, Designers, and the Business team. I decided to continue my learning journey at RMIT since RMIT has the best education quality with an English-speaking environment. I believe that RMIT will equip me with enough knowledge for my future job and learn about how technology will change in the future. </h5>
+          </div>
+        </div>
+
+        <div class="profile__descontent">
+          <div class="profile__title">
+            <h4>Personality test results</h4>  
+          </div>
+          <div class="profile__content">
+            <h5>ESFP</h5>
+          </div>
+        </div>
+
+        <div class="profile__descontent">
+          <div class="profile__title">
+            <h4>Career Plan</h4>  
+          </div>
+          <div class="profile__content">
+              <h5>The job that I aimed for in the future is being Product Manager at Tiki. For the position, the ideal candidate must have a customer-first mindset, a strong understanding of back-end and front-end programming languages, and the ability to leverage big data to develop, analyze, and improve our financial products. This role requires a candidate with curiosity, excellent analytical, organizational, and communication skills as he/she‘ll be working with many different constituents. This is a customer-centric role, working to translate the needs of the customer into online financial product opportunities.  </h5>        
+          </div>
+        </div>
+    </div>
+
+
+  </div>
 
 </section>
-
+</div>
   <script src="app/js/script.js"></script>
 </body>
 </html>
