@@ -160,7 +160,7 @@ h4 {
 }
 
 h5 {
-  font-size: 0.75rem;
+  font-size: 1rem;
   margin-bottom: 2.25rem;
   font-weight: 400;
   line-height: 1.75;
@@ -168,7 +168,7 @@ h5 {
 
 @media (min-width: 64em) {
   h5 {
-    font-size: 0.75rem;
+    font-size: 1rem;
     margin-bottom: 1.5625rem;
   }
 }
@@ -406,7 +406,7 @@ p {
 }
 
 .hero {
-  background-image: url("/images/Frame.svg");
+  background-image: url("https://hathu0610.github.io/asm2-team3/images/Frame.svg");
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
