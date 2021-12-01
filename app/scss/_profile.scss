@@ -19,9 +19,7 @@
   }
 
   &__floating {
-    visibility: hidden;
     @include breakpoint-up(large) {
-      visibility: visible;
       float: right !important;
       position: relative;
       width: 150%;

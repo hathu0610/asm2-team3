@@ -511,13 +511,8 @@ p {
   }
 }
 
-.profile__floating {
-  visibility: hidden;
-}
-
 @media (min-width: 64em) {
   .profile__floating {
-    visibility: visible;
     float: right !important;
     position: relative;
     width: 150%;
