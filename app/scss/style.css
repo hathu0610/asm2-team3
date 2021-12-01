@@ -193,7 +193,7 @@ p {
 }
 
 .bg {
-  background-image: url("/images/Frame.svg");
+  background-image: url("https://hathu0610.github.io/asm2-team3/images/Frame.svg");
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
