@@ -1,9 +1,7 @@
 .profile {
-  //background-color: $Purple;
-  h2 {
-    text-align: center;
+  a {
+    color: $DarkBlue;
   }
-
   &__box {
     @include breakpoint-up(large) {
       display: flex;
@@ -38,5 +36,9 @@
       margin-top: 0;
       margin-bottom: 0;
     }
+  }
+
+  &__comparison {
+    width: 80vw;
   }
 }

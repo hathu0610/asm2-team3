@@ -1,5 +1,5 @@
 .hero {
-  background-image: url("https://hathu0610.github.io/asm2-team3/images/Frame.svg");
+  background-image: url("/images/bg.jpg");
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -10,7 +10,7 @@
     }
   }
   &__image {
-    background-image: url("https://hathu0610.github.io/asm2-team3/images/hero-img.svg");
+    background-image: url("/images/hero-image.png");
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
@@ -19,7 +19,7 @@
       flex: 3;
       order: 2;
       min-height: 41rem;
-      background-image: url("https://hathu0610.github.io/asm2-team3/images/hero-img.svg");
+      background-image: url("/images/hero-image.png");
       background-position: left center;
     }
   }
