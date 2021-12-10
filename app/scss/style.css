@@ -568,8 +568,8 @@ p {
 
 .close .accordionItemContent {
   height: 0px;
-  -webkit-transition: height 1s ease-out;
-  transition: height 1s ease-out;
+  -webkit-transition: height 2s ease-out;
+  transition: height 2s ease-out;
   -webkit-transform: scaleY(0);
   transform: scaleY(0);
 }
