@@ -61,7 +61,7 @@
   }
   .tabs [class^="tab"] [type="radio"],
   .tabs [class*=" tab"] [type="radio"] {
-    border-bottom: 1px solid rgba(239, 237, 239, 0.5);
+    border-bottom: 3px solid rgba(239, 237, 239, 0.5);
     cursor: pointer;
     -webkit-appearance: none;
     -moz-appearance: none;
@@ -77,11 +77,11 @@
   .tabs [class^="tab"] [type="radio"]:focus,
   .tabs [class*=" tab"] [type="radio"]:hover,
   .tabs [class*=" tab"] [type="radio"]:focus {
-    border-bottom: 1px solid $DarkBlue;
+    border-bottom: 3px solid $DarkBlue;
   }
   .tabs [class^="tab"] [type="radio"]:checked,
   .tabs [class*=" tab"] [type="radio"]:checked {
-    border-bottom: 2px solid $DarkBlue;
+    border-bottom: 3px solid $DarkBlue;
   }
   .tabs [class^="tab"] [type="radio"]:checked + div,
   .tabs [class*=" tab"] [type="radio"]:checked + div {

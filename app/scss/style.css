@@ -693,7 +693,7 @@ p {
 
 .ittech .tabs [class^="tab"] [type="radio"],
 .ittech .tabs [class*=" tab"] [type="radio"] {
-  border-bottom: 1px solid rgba(239, 237, 239, 0.5);
+  border-bottom: 3px solid rgba(239, 237, 239, 0.5);
   cursor: pointer;
   -webkit-appearance: none;
   -moz-appearance: none;
@@ -708,12 +708,12 @@ p {
 .ittech .tabs [class^="tab"] [type="radio"]:focus,
 .ittech .tabs [class*=" tab"] [type="radio"]:hover,
 .ittech .tabs [class*=" tab"] [type="radio"]:focus {
-  border-bottom: 1px solid #211c70;
+  border-bottom: 3px solid #211c70;
 }
 
 .ittech .tabs [class^="tab"] [type="radio"]:checked,
 .ittech .tabs [class*=" tab"] [type="radio"]:checked {
-  border-bottom: 2px solid #211c70;
+  border-bottom: 3px solid #211c70;
 }
 
 .ittech .tabs [class^="tab"] [type="radio"]:checked + div,
