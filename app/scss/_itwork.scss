@@ -1,8 +1,4 @@
 .accordionWrapper {
-  height: 180vh;
-  @include breakpoint-up(large) {
-    height: 100vh;
-  }
   display: flex;
   flex-direction: column;
   justify-content: center;
