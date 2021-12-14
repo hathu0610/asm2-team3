@@ -511,6 +511,13 @@ p {
   }
 }
 
+.profile__image {
+  width: 300px;
+  height: auto;
+  object-fit: fill;
+  border-radius: 10%;
+}
+
 @media (min-width: 64em) {
   .profile__floating {
     float: right !important;
