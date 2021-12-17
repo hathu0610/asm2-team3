@@ -47,7 +47,6 @@
     -moz-flex-wrap: wrap;
     flex-wrap: wrap;
     margin: 0;
-    overflow: hidden;
   }
   .tabs [class^="tab"] label,
   .tabs [class*=" tab"] label {
@@ -140,5 +139,8 @@
     color: $White;
     border-radius: 10px;
     margin-top: 3.125rem;
+    height: 1000px;
+    overflow-y: scroll;
+    position: relative;
   }
 }

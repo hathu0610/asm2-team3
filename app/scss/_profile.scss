@@ -1,4 +1,10 @@
 .profile {
+  .profile__image {
+    width: 300px;
+    height: auto;
+    object-fit: fill;
+    border-radius: 10%;
+  }
   a {
     color: $DarkBlue;
   }

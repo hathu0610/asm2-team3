@@ -200,8 +200,7 @@ p {
 }
 
 .header {
-  position: -webkit-sticky;
-  position: sticky;
+  position: fixed;
   top: 0;
   width: 100%;
   background: rgba(255, 255, 255, 0.9);
@@ -478,6 +477,14 @@ p {
   opacity: 0.75;
 }
 
+.profile .profile__image {
+  width: 300px;
+  height: auto;
+  -o-object-fit: fill;
+     object-fit: fill;
+  border-radius: 10%;
+}
+
 .profile a {
   color: #211c70;
 }
@@ -509,13 +516,6 @@ p {
         -ms-flex: 2;
             flex: 2;
   }
-}
-
-.profile__image {
-  width: 300px;
-  height: auto;
-  object-fit: fill;
-  border-radius: 10%;
 }
 
 @media (min-width: 64em) {
@@ -684,7 +684,6 @@ p {
   -ms-flex-wrap: wrap;
       flex-wrap: wrap;
   margin: 0;
-  overflow: hidden;
 }
 
 .ittech .tabs [class^="tab"] label,
@@ -785,5 +784,118 @@ p {
   color: white;
   border-radius: 10px;
   margin-top: 3.125rem;
+  height: 1000px;
+  overflow-y: scroll;
+  position: relative;
+}
+
+.prjo {
+  /* Style the buttons inside the tab */
+  /* Change background color of buttons on hover */
+  /* Create an active/current "tab button" class */
+  /* Style the tab content */
+}
+
+.prjo table,
+.prjo td,
+.prjo th {
+  border: 1px solid black;
+  padding: 20px;
+}
+
+.prjo table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.prjo .text-align {
+  text-align: center;
+}
+
+.prjo .tab {
+  float: left;
+  border: 1px solid #ccc;
+  background-color: #f1f1f1;
+  width: 30%;
+  height: 300px;
+}
+
+.prjo .tablinks {
+  font-family: "Nunito", sans-serif;
+}
+
+.prjo .tab button {
+  background-color: inherit;
+  color: black;
+  padding: 22px 16px;
+  width: 100%;
+  border: none;
+  outline: none;
+  text-align: left;
+  cursor: pointer;
+  font-size: 17px;
+}
+
+.prjo .tab button:hover {
+  background-color: #ddd;
+  border-radius: 0px;
+}
+
+.prjo .tab button.active {
+  background-color: #211c70;
+  color: white;
+  border-radius: 0px;
+}
+
+.prjo .tabcontent {
+  float: left;
+  padding: 20px;
+  border: 1px solid #ccc;
+  width: 70%;
+  border-left: none;
+  height: 300px;
+  overflow-y: scroll;
+}
+
+@media (min-width: 64em) {
+  .prjo .overview {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+  }
+}
+
+.prjo__image {
+  width: 300px;
+  -o-object-fit: contain;
+     object-fit: contain;
+}
+
+.prjo__content {
+  background-color: white;
+  border-radius: 30px;
+  margin-top: 30px;
+}
+
+@media (min-width: 64em) {
+  .prjo__content {
+    margin-top: 0px;
+    margin-left: 30px;
+    margin-right: 30px;
+  }
+}
+
+.prjo__description {
+  background-color: white;
+  border-radius: 30px;
+  margin-top: 30px;
+}
+
+@media (min-width: 64em) {
+  .prjo__description {
+    margin-top: 0px;
+    margin-left: 30px;
+    margin-right: 30px;
+  }
 }
 /*# sourceMappingURL=style.css.map */
