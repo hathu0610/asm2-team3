@@ -826,6 +826,10 @@ p {
   font-family: "Nunito", sans-serif;
 }
 
+.prjo .tabfblinks {
+  font-family: "Nunito", sans-serif;
+}
+
 .prjo .tab button {
   background-color: inherit;
   color: black;
@@ -856,6 +860,16 @@ p {
   width: 70%;
   border-left: none;
   height: 300px;
+  overflow-y: scroll;
+}
+
+.prjo .tabfbcontent {
+  float: left;
+  padding: 20px;
+  border: 1px solid #ccc;
+  width: 70%;
+  border-left: none;
+  height: 600px;
   overflow-y: scroll;
 }
 

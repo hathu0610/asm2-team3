@@ -24,6 +24,10 @@
   .tablinks {
     font-family: "Nunito", sans-serif;
   }
+
+  .tabfblinks {
+    font-family: "Nunito", sans-serif;  
+  }
   /* Style the buttons inside the tab */
   .tab button {
     background-color: inherit;
@@ -52,6 +56,16 @@
 
   /* Style the tab content */
   .tabcontent {
+    float: left;
+    padding: 20px;
+    border: 1px solid #ccc;
+    width: 70%;
+    border-left: none;
+    height: 300px;
+    overflow-y: scroll;
+  }
+
+  .tabfbcontent {
     float: left;
     padding: 20px;
     border: 1px solid #ccc;
