@@ -60,7 +60,29 @@ function openCity(evt, cityName) {
     evt.currentTarget.className += " active";
 
   }
-  
+
+function openTab(evt1, tabName) {
+    // Declare all variables
+    var k, tabfbcontent, tabfblinks;
+
+    // Get all elements with class="tabfbcontent" and hide them
+    tabfbcontent = document.getElementsByClassName("tabfbcontent");
+    for (k = 0; k < tabfbcontent.length; k++) {
+        tabfbcontent[k].style.display = "none";
+    }
+
+    // Get all elements with class="tablinks" and remove the class "active"
+    tabfblinks = document.getElementsByClassName("tabfblinks");
+    for (k = 0; k < tabfblinks.length; k++) {
+        tabfblinks[k].className = tabfblinks[k].className.replace(" active", "");
+    }
+
+    // Show the current tab, and add an "active" class to the link that opened the tab
+    document.getElementById(tabName).style.display = "block";
+    evt1.currentTarget.className += " active";
+
+}
 
 
   document.getElementById("defaultOpen").click();
+  document.getElementById("defaultFBOpen").click();

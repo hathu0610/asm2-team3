@@ -826,6 +826,10 @@ p {
   font-family: "Nunito", sans-serif;
 }
 
+.prjo .tabfblinks {
+  font-family: "Nunito", sans-serif;
+}
+
 .prjo .tab button {
   background-color: inherit;
   color: black;
@@ -856,6 +860,16 @@ p {
   width: 70%;
   border-left: none;
   height: 300px;
+  overflow-y: scroll;
+}
+
+.prjo .tabfbcontent {
+  float: left;
+  padding: 20px;
+  border: 1px solid #ccc;
+  width: 70%;
+  border-left: none;
+  height: 600px;
   overflow-y: scroll;
 }
 
@@ -901,3 +915,37 @@ p {
   }
 }
 /*# sourceMappingURL=style.css.map */
+
+.tooltip {
+  text-decoration:none;
+  position:relative;
+}
+ 
+.tooltip span {
+  display:none;
+  -moz-border-radius:6px;
+  -webkit-border-radius:6px;
+  border-radius:6px;
+  color:black;
+  background:white; 
+}
+ 
+.tooltip span img {
+  float:left;
+  margin:0px 8px 8px 0;
+}
+ 
+.tooltip:hover span {
+  display:block;
+  position:absolute;
+  top:0;
+  left:0;
+  z-index:1000;
+  width:auto;
+  min-height:128px;
+  border:1px solid black;
+  margin-top:12px;
+  margin-left:32px;
+  overflow:hidden;
+  padding:8px;
+}
